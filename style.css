@@ -1,0 +1,262 @@
+:root {
+    --main: #00ADB5;
+    --secondary: #EEEEEE;
+    --gray: #393E46;
+    --dark: #212121;
+}
+
+body{
+ border: #00ADB5;
+}
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .nav-bg {
+    background-color: var(--main);
+    color: var(--dark);
+    margin-bottom: 50px;
+  }
+  
+  .nav-main {
+    color: var(--dark);
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-evenly;
+
+  }
+  
+  .nav-main a {
+    color: var(--dark);
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 20px;
+  }
+
+  .nav-main a:hover {
+    background-color: var(--secondary);
+    color:var(--dark); 
+  }
+  .nav-main a:hover {
+    background-color: var(--secondary);
+    color:var(--dark); 
+  }
+
+/* Maid Pag*/
+.mainDiv{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 50px 0;
+    color: var(--gray);
+}
+
+.mainDiv p{
+  margin-left: 30px;
+    font-size: 21px;
+    color: var(--gray);
+}
+
+.mainDivSec{
+  display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.mainDivSec p{
+    margin-left: 30px;
+      font-size: 21px;
+      color: var(--gray);
+      line-height: 1.5;
+  }
+
+/*Button*/
+.tabletags{
+  padding-left: 15%;
+}
+
+/* Estilos para el botón */
+.buttons{
+  display: inline-block;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--secondary);
+  background-color: var(--main);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+/* Estilos al pasar el mouse sobre el botón */
+.buttons:hover {
+  background-color: var(--gray);
+}
+
+/* Projects */
+#imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#imagenes div {
+  margin: 10px;
+  text-align: center;
+}
+#imagenes img {
+  width: 300px;
+  height: auto;
+}
+#imagenes button {
+  margin-top: 10px;
+}
+iframe{
+margin-top: 50px;
+  height: 700px;
+  width: 100%;
+}
+
+
+
+/* SubTitle of pag */
+
+.subTitle {
+  color: var(--main);
+  font-size: 24px;
+  text-align: center;
+}
+
+.subTitle h2{
+  padding-bottom: 50px;
+}
+
+/* About Me */
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-left: 15%;
+  color: var(--gray);
+}
+
+.image {
+  width: 250px;
+  margin-right: 20px;
+}
+
+.image img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.container p {
+  font-size: 18px;
+  line-height: 2.5;
+  margin-left: 20px;
+}
+ul{
+  margin-left: 50px;
+}
+
+.pdfCertificates{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: var(--main);
+  padding: 10px;
+}
+
+/* Contact Me */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+
+textarea {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--main);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: var(--main);
+}
+
+/* Footer */
+footer{
+
+    bottom: 0;
+    width: 100%;
+}
+.main-div-footer {
+  background-color: var(--main); 
+  height: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.nav-footer{
+display: flex;
+flex-direction: column;
+}
+.div-footer {
+flex-grow: 1;
+}
+
+footer p{
+text-align: center;
+background-color: var(--gray);
+padding: 10px;
+color: var(--secondary);
+} 
